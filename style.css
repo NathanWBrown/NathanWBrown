@@ -9,8 +9,8 @@ body {
 	margin-top: 20px;
 	margin-left: 150px;
 	margin-right: 450px;
-	padding: 20px 20px 10px 150px;
-  	border: solid;
+	padding: 20px 20px 10px 100px;
+  border: solid;
 	border-radius: 50px;
 	text-align: left;  
 }
@@ -22,8 +22,11 @@ body {
   font-size: 1.5em;
 }
 #photo {
-  margin-right: 200px;
+  margin-right: 150px;
   float: right;
+  border: solid;
+  border-width: .5em;
+  line-height: 0;
 }
 #skills, #employment, #education {
   font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
