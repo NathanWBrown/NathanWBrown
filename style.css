@@ -36,6 +36,11 @@ body {
   padding-bottom: 20px;
   text-shadow: 3px 2px white;
 }
+
+#skillsheading {
+  font-size: 2em;
+  text-shadow: 3px 2px white;
+}
 #subheading {
   font-size: 1.3em;
   padding-bottom: 10px;
@@ -43,6 +48,8 @@ body {
 }
 .skillsgroups {
   list-style-type: none;
+  display:inline-block;
+  vertical-align: top;
 }
 .company, .school {
   font-size: 1.5em;
