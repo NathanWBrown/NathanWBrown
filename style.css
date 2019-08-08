@@ -1,1 +1,42 @@
-//this is a stylesheet
+#vitals {
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+}
+body {
+  background-color: grey;
+}
+#resume {
+	background-color: lightblue;
+	margin-top: 20px;
+	margin-left: 150px;
+	margin-right: 450px;
+	padding: 20px 20px 10px 150px;
+  	border: solid;
+	border-radius: 50px;
+	text-align: left;  
+}
+#name {
+  font-size: 3em;
+  text-shadow: 3px 2px white;
+}
+#phone {
+  font-size: 1.5em;
+}
+#photo {
+  margin-right: 200px;
+  float: right;
+}
+#employment, #education {
+  font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+}
+#employmentheading, #educationheading {
+  font-size: 2em;
+  padding-bottom: 20px;
+  text-shadow: 3px 2px white;
+}
+.company, .school {
+  font-size: 1.5em;
+}
+.date {
+  font-weight: bold;
+  font-size: 0.9em;
+}
