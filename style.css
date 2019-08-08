@@ -25,13 +25,21 @@ body {
   margin-right: 200px;
   float: right;
 }
-#employment, #education {
+#skills, #employment, #education {
   font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
 }
-#employmentheading, #educationheading {
+#heading {
   font-size: 2em;
   padding-bottom: 20px;
   text-shadow: 3px 2px white;
+}
+#subheading {
+  font-size: 1.3em;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.skillsgroups {
+  list-style-type: none;
 }
 .company, .school {
   font-size: 1.5em;
